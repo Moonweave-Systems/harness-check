@@ -18,6 +18,8 @@ from collections import Counter
 from datetime import datetime, timedelta
 from pathlib import Path
 
+__version__ = "1.0.0"
+
 HOME = Path.home().resolve()
 CLAUDE_DIR = HOME / ".claude"
 HOOKS_DIR = CLAUDE_DIR / "hooks"
@@ -345,6 +347,9 @@ def collect_project_state(top_n: int = 5) -> list[dict]:
 def main() -> None:
     if "--help" in sys.argv or "-h" in sys.argv:
         print(__doc__)
+        sys.exit(0)
+    if "--version" in sys.argv:
+        print(f"harness_collect.py {__version__}")
         sys.exit(0)
 
     errors: list[str] = []

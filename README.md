@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src=".github/assets/harness-check-mark.svg" alt="harness-check mark" width="96">
+<img src=".github/assets/harness-check-mark-512.png" alt="harness-check mark" width="96">
 
 </div>
 

@@ -1,3 +1,9 @@
+<div align="center">
+
+<img src=".github/assets/harness-check-mark.svg" alt="harness-check mark" width="96">
+
+</div>
+
 # harness-check
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue?logo=python&logoColor=white)

@@ -81,6 +81,14 @@ After running `/harness-check`, your `workspace_map.md` AUTO section is updated:
 
 ---
 
+## Canonical source
+
+This repository is the canonical source for both `harness-check.md` and
+`scripts/harness_collect.py`. Bundled harness repositories may vendor exact
+copies, but changes should be made and reviewed here first.
+
+---
+
 ## Install
 
 ```bash
